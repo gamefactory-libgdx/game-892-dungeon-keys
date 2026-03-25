@@ -1,0 +1,36 @@
+{
+  "title": "Dungeon Keys",
+  "orientation": "portrait",
+  "collectible": "keys",
+  "shopType": "hero_skins",
+  "shopHint": "6 hero skins (Knight, Rogue, Wizard, Skeleton, Paladin, Dark Mage). Collect keys to unlock dungeon gates.",
+  "genre": "maze-arcade",
+  "mechanic": "swipe",
+  "description": "Hero moves through a dungeon maze collecting keys while avoiding roaming monsters. Swipe to move between tiles. Exit opens when all keys collected. Three dungeon types: Stone Crypt, Lava Dungeon, Ice Cavern.",
+  "screens": [
+    "MainMenuScreen",
+    "DungeonSelectScreen",
+    "CryptScreen",
+    "LavaDungeonScreen",
+    "IceCavernScreen",
+    "LevelCompleteScreen",
+    "GameOverScreen",
+    "LeaderboardScreen",
+    "SettingsScreen",
+    "HowToPlayScreen"
+  ],
+  "slug": "dungeon-keys",
+  "archetype": "maze-runner",
+  "buttonStyle": "pixel",
+  "font1": "Iomanoid.otf",
+  "font2": "Skeleboom.ttf",
+  "colors": {
+    "primary": "#FFCA28",
+    "accent": "#EF5350",
+    "bg": "#1A0A00",
+    "text": "#FFFFFF"
+  },
+  "gameId": "game-892-dungeon-keys",
+  "gamePath": "/home/kaliuzhnyi/asocity/projects/game-892-dungeon-keys",
+  "packageName": "com.dungeonkeys000892.app9711"
+}
